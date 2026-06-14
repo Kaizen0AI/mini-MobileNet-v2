@@ -17,7 +17,13 @@ Classify images as:
 - Data Augmentation
 
 ## Results
-Test accuracy: 0.6675999760627747
+### Run 1
+- Baseline Mini-MobileNetV2
+- Test Accuracy: 65.5%
+
+### Run 2
+- Added data augmentation
+- Test Accuracy: 66.7%
 
 ## Author
 Md Kamil
