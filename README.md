@@ -1,34 +1,31 @@
-# CIFAR-10 Mini_MobileNetV2
+# Mini MobileNetV2
 
-This project is a CNN-based MobileNetV2 built using TensorFlow.
+A simplified MobileNetV2 implementation built from scratch in TensorFlow for CIFAR-10 classification.
 
-## Problem
-Classify images as:
-- All 10 classes in CIFAR-10 dataset
+## Concepts Implemented
 
-## Model
-- Conv2D
+- Depthwise Separable Convolutions
+- Inverted Residual Blocks
+- Linear Bottlenecks
+- Residual Connections
 - Batch Normalization
-- ReLU
-- MaxPooling
-- Dense
-- Depthwise Con2D
-- Globle Average pooling
 - Data Augmentation
 
-## Experiments
+## Dataset
 
-### Baseline
-- Accuracy: 65.5%
+- CIFAR-10
+- 10 classes
+- 32x32 RGB images
 
-### Experiment 1
-- Added data augmentation
-- Accuracy: 66.7%
+## Results
 
-### Notes
-- Reduced overfitting
-- Improved validation accuracy
+| Experiment | Test Accuracy |
+|------------|---------------|
+| Baseline | 65.5% |
+| + Data Augmentation | 66.8% |
 
-## Author
-Md Kamil
+## Future Improvements
 
+- Dropout
+- Learning Rate Scheduling
+- Transfer Learning with MobileNetV2
