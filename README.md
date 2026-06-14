@@ -16,14 +16,18 @@ Classify images as:
 - Globle Average pooling
 - Data Augmentation
 
-## Results
-### Run 1
-- Baseline Mini-MobileNetV2
-- Test Accuracy: 65.5%
+## Experiments
 
-### Run 2
+### Baseline
+- Accuracy: 65.5%
+
+### Experiment 1
 - Added data augmentation
-- Test Accuracy: 66.7%
+- Accuracy: 66.7%
+
+### Notes
+- Reduced overfitting
+- Improved validation accuracy
 
 ## Author
 Md Kamil
