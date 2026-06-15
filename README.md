@@ -29,3 +29,19 @@ A simplified MobileNetV2 implementation built from scratch in TensorFlow for CIF
 - Dropout
 - Learning Rate Scheduling
 - Transfer Learning with MobileNetV2
+
+## Project Status
+
+✅ Completed
+
+This project was built to implement and understand the core ideas behind MobileNetV2 from scratch on CIFAR-10.
+
+Key learnings:
+- Depthwise separable convolutions
+- Inverted residual bottlenecks
+- Residual connections
+- Data augmentation
+- Bias-variance analysis
+
+Future work:
+- Transfer learning with pretrained MobileNetV2
